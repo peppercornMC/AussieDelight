@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "aussiedelight:uncooked_meat_pie"
+  },
+  "result": "aussiedelight:meat_pie",
+  "experience": 0.35,
+  "cookingtime": 100
+}

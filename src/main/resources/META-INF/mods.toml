@@ -1,0 +1,39 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="aussiedelight"
+version="1.0.0"
+displayName="Aussie Delight"
+logoFile="icon.png"
+authors="Pepper"
+description='''A Farmer's Delight addon featuring Australian cuisine.'''
+
+[[dependencies.aussiedelight]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.aussiedelight]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.aussiedelight]]
+    modId="farmersdelight"
+    mandatory=true
+    versionRange="[1.2,)"
+    ordering="AFTER"
+    side="BOTH"
+    
+[[dependencies.aussiedelight]]
+    modId = "jei"
+    mandatory = false
+    versionRange = "[15,)"
+    ordering = "NONE"
+    side = "BOTH"

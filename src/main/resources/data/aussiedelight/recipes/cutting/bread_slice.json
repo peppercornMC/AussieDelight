@@ -1,0 +1,16 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    { "item": "minecraft:bread" }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  },
+  "result": [
+    {
+      "item": "aussiedelight:bread_slice",
+      "count": 3
+    }
+  ],
+  "sound": "minecraft:block.wood.break"
+}

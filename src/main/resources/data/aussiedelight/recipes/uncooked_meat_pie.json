@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "fd_apple_pie",
+  "key": {
+    "t": {
+      "item": "farmersdelight:tomato"
+    },
+    "O": {
+      "item": "farmersdelight:pie_crust"
+    },
+    "#": {
+      "item": "farmersdelight:minced_beef"
+    }
+  },
+  "pattern": [
+    " t ",
+    "###",
+    "#O#"
+  ],
+  "result": {
+    "item": "aussiedelight:uncooked_meat_pie"
+  },
+  "show_notification": true
+}
